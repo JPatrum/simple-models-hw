@@ -276,6 +276,14 @@ const updateLast = (req, res) => {
   });
 };
 
+const createDog = (req, res) => {
+
+}
+
+const ageDog = (req, res) => {
+  
+}
+
 // A function to send back the 404 page.
 const notFound = (req, res) => {
   res.status(404).render('notFound', {
